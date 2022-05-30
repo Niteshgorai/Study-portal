@@ -1,0 +1,254 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-color: black;
+    background: url("../images/1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* background:rgb(145, 161, 114);
+    background:url("D:/Student Study portal project/images/1.jpg") no-repeat;
+    background-size:100%; */
+    
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.banner-bottom
+{
+    width:100%;
+    height: auto;
+    background-color: rgb(255 217 0 / 30%);
+    padding:10px;
+    margin: 10px 0;
+    /* padding:10px 10px 10px 10px 
+        padding:left*/
+}
+.banner-bottom p{
+    text-align: center;
+    color:#fff;
+    font-size: 15px;
+    font-weight: normal;
+}
+.button-center{
+        text-align: center;
+}
+.product{
+    width:100%;
+    height: auto;
+    background-color: rgb(135, 130, 83);
+    padding:80px 0;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+.product img{
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+height: auto;
+}
+.footer h4{
+    text-decoration:underline;
+    font-style: italic;
+    color: rgb(124, 172, 158);
+}
+.footer p{
+    color: azure;
+}
+.copyright{
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(119, 103, 79);
+    text-align: center;
+}
+.bg-image{
+    width:100%;
+    height:400px;
+    background-blend-mode: overlay;
+    background: url("../images/1.jpg") no-repeat;
+    background-color: rgb(138, 127, 255);
+}
+.login-form{
+    
+        /* width:100%;
+        height:400px; */
+
+        background-blend-mode: overlay; 
+
+        /* background: url("D:/Student Study portal project/images/1.jpg") no-repeat; */
+        /* background-image: url("D:/Student Study portal project/images/4.jpg"); */
+        /* background:url("D:/Student Study portal project/images/1.jpg") no-repeat; */
+        /* background-size:100%;
+        height: 140px;
+        display:block;
+        padding:0 !important;
+        margin:0; */
+
+
+    width:35%;
+    height:auto;
+    padding:30px;
+    background-color: rgb(0 11 255 / 25%);
+    border-radius: 7px;
+    margin: 7% auto;
+    
+}
+.registration-form{
+    width:40%;
+    height: auto;
+    padding:40px;
+    background-color: rgb(0 107 255 / 37%);
+    border-radius: 7px;
+    margin: 2% auto; 
+}
+.button-back{
+   padding-right: 100%;
+}
+.notice{
+    height:auto;
+    width:100%;
+    scroll-behavior: auto;
+}
+/* .notice p{
+    border-image: ;
+} */
+
+
+    @media(max-width:576px){
+     .fleft{
+        order:2;
+
+    }
+    .fright{
+        order: 1;
+    }
+}
+  
+.notes {
+    width:70%;
+    height:400px;
+    background-blend-mode: overlay; 
+    /* width:35%;
+    height:auto; */
+    padding:20px;
+    background-color: rgb(198, 195, 123);
+    border-radius: 7px;
+    margin: 5% auto;
+    
+    
+  }
+  /* .abc{
+      color:red;
+  } */
+  .img-hover img:hover{
+      transform: scale(1.1);
+      transition: 3ms;
+  }
+
+  .homework{
+    width:80%;
+    height: auto;
+    padding:30px;
+    background-color: rgb(235, 183, 99);
+    border-radius: 7px;
+    margin: 5% auto; 
+  }
+.border{
+    margin: 10px 0;
+}
+.youtube{
+    width:40%;
+    height: auto;
+    padding:30px;
+    background-color: rgb(232, 112, 75);
+    border-radius: 7px;
+    margin: 4% auto; 
+}
+.dictionary{
+    width:40%;
+    height: auto;
+    padding:30px;
+    background-color: rgb(251, 74, 74);
+    border-radius: 7px;
+    margin: 4% auto; 
+}
+.wikipedia{
+    width:40%;
+    height: auto;
+    padding:30px;
+    background-color: rgb(234, 243, 245);
+    border-radius: 7px;
+    margin: 4% auto; 
+}
+.books{
+    width:40%;
+    height: auto;
+    padding:30px;
+    background-color: rgb(144, 221, 219);
+    border-radius: 7px;
+    margin: 4% auto; 
+}
+
+.conversion{
+    width:40%;
+    height: auto;
+    padding:30px;
+    background-color: rgb(227, 158, 243);
+    border-radius: 7px;
+    margin: 4% auto; 
+}
+
+
+/* about-us */
+.container1 {
+    position: relative;
+    text-align: center;
+    color: rgb(154, 236, 243);
+  }
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    
+  }
+
+  /* .paragraph h3{
+      
+  } */
+  
+  /* .avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  } */
+
+  .testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    }
+    
+    .testimonial-card .avatar {
+    width: 150px;
+    margin-top: -50px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    }
+
+    .profile {
+        float:right;
+        margin-right:50px;
+        height:160px;
+        width:140px;
+    }
