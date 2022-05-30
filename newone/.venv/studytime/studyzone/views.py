@@ -7,8 +7,6 @@ from django.shortcuts import redirect
 from django.views import generic
 import requests
 import wikipedia
-import wikipedia
-import wikipedia
 from youtubesearchpython import VideosSearch
 from django.contrib.auth.decorators import login_required
 
