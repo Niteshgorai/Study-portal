@@ -1,8 +1,9 @@
 {% extends 'base.html' %} 
 {% load static %} 
 {% block body %}
+<div style="background-color: #cde9ee; height: 655px; width: 100% ;">
 <section class='text-center container'>
-    <h2>Student Dictionary</h2>
+    <h2 style="color:#069">Student Dictionary</h2>
     <p>Enter any word to get the phonetics, definition and an example for the word</p>
     <form action="" method="post">
       {% csrf_token %}
@@ -27,16 +28,16 @@
             <h4>Definition: {{definition}}</h4>
             <h4>Example: {{example}}</h4>
         </p>
-        Synonyms:
+        {% comment %} Synonyms:
         {% for synonym in synonyms %}
         {{synonym}}
-        {% endfor %}
+        {% endfor %} {% endcomment %}
         <hr>
-
     </div>
     {% else %}
-    <h2>Sorry, API request limit exceeded</h2>
+    {% comment %} <h2>Sorry, API request limit exceeded</h2> {% endcomment %}
 </section>
 {% endif %}
+</div>
 {% endblock body %}
 

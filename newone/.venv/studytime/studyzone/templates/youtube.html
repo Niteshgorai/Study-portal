@@ -1,8 +1,9 @@
 {% extends 'base.html' %} 
 {% load static %} 
 {% block body %}
+<div style="background-color: #cde9ee; height: 150px; width: 100% ;">
 <section class='text-center container'>
-    <h2>Search Videos in Youtube</h2>
+    <h2 style="color:#069">Search Videos in Youtube</h2>
     <p>search videos and select any video to open in youtube</p>
     <form action="" method="post">
       {% csrf_token %}
@@ -40,5 +41,5 @@
     {% endfor %}
     <br>
 </section>
-
+</sdiv>
 {% endblock body %}

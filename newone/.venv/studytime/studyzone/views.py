@@ -225,7 +225,7 @@ def dictionary(request):
                 'audio':audio,
                 'definition':definition,
                 'example':example,
-                'synonyms':synonyms,
+                'synonyms':synonyms
             }
         except:
             context={

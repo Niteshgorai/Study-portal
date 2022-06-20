@@ -2,9 +2,10 @@
 {% load static %} 
 {% block body %}
 
+    <div style="background-color: #cde9ee; height: 1300px; width: 100% ;">
     <section class='text-center container'>
-    <h2>Search articles in wikipedia</h2>
-    <p>just enter the search query to obtain the results</p><b>Enter without any space</b>
+    <h2 style="color:#069">Search articles in wikipedia</h2>
+    <p>just enter the search query to obtain the results</p><b> &emsp; Enter without any space</b>
     <form action="" method="post">
        {% csrf_token %}
       {{form}}
@@ -27,8 +28,7 @@
             <hr>
         </div>
     </div>
-
 </section>  
-
+</div>
 {% endblock body %}
 

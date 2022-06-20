@@ -2,8 +2,9 @@
 {% load static %} 
 {% block body %}
 
+<div style="background-color: #cde9ee; height: 150px; width: 100% ;">
 <section class='text-center container'>
-    <h2>Search books and browse your favorite</h2>
+    <h2 style="color:#069">Search books and browse your favorite</h2>
     <p>just enter the search query to obtain the results</p><b></b>
     <form action="" method="post">
       {% csrf_token %}
@@ -53,5 +54,5 @@
     {% endfor %}
     <br>
 </section>
-
+</div>
 {% endblock body %}
